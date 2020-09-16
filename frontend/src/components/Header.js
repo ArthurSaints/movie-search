@@ -8,7 +8,7 @@ function Header() {
     return (
         <div className="header">
             <img className="header__logo" src={Logo} alt="muvy logo" />
-            <div className="header__title">FIND THE MOVIE WITH US!</div>
+            {/* <div className="header__title">FIND THE MOVIE WITH US!</div> */}
         </div>
     );
 }
