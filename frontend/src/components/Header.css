@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 5px;
+    border-bottom: solid #e6e6e6;
+    border-width: 1px;
+}
+
+.header__logo {
+    width: 200px;
+    object-fit: contain;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.header__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+}
